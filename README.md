@@ -1,8 +1,8 @@
 # AGImpute
 A composite structure model for single-cell RNA-seq imputation
 ##Tabel of Contents
-- .[Install AGImpute].(#installAGImpute)
-- .[Install dependences].(#installdependences)
+- [Install AGImpute](#installAGImpute)
+- [Install dependences](#installdependences)
 
 ##<a name="installAGImpute"></a>Install AGImpute
 -**Download** `git clone https://github.com/MengShuang-ping/AGImpute.git`
