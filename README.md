@@ -5,9 +5,9 @@ A composite structure model for single-cell RNA-seq imputation
 - [Install dependences](#installdependences)
 
 ##<a name="installAGImpute"></a>Install AGImpute
--**Download** `git clone https://github.com/MengShuang-ping/AGImpute.git`
+- **Download** `git clone https://github.com/MengShuang-ping/AGImpute.git`
 - `cd AGImpute`
--**Install** `pip install xxxx`
+- **Install** `pip install xxxx`
 ##<a name="installdependences"></a>Install dependences
 AGImpute is implemented in `python`(>3.8) and `pytorch`(>10.1) or `cuda`(11.4),Please install `python`(>3.8) and `pytorch`(>10.1) or cuda dependencies before run AGImpute.Users can either use pre-configured conda environment(recommended)or build your own environmen manually.
 ###Use pre-configured conda environment(recommended)
