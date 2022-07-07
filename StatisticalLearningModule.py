@@ -47,16 +47,12 @@ def zinbem(data, fai, k):
         delta_change = np.abs(new_param_k - k)
         statisparam.append([new_param_fai, np.round(new_param_nu), new_param_k])
         if delta_change < tol:
-            print("The threshold end condition is delta_change")
             break
         elif new_param_fai < 0:
-            print("The threshold end condition is fai")
             break
         elif np.round(new_param_nu) < 0 or new_param_nu > n:
-            print("The threshold end condition is the nu")
             break
         elif new_param_k > 1 or new_param_k < 0:
-            print("The threshold end condition is k")
             break
         else:
             fai = new_param_fai
@@ -77,7 +73,6 @@ def zinbem(data, fai, k):
             result = getfaildparam[i]
 
     if result == 0:
-        print("The threshold end condition is non the good param")
         return iniresult
     else:
         return result
